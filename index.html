@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_779c85fdcfcb479bb1e01762e200da5a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_779c85fdcfcb479bb1e01762e200da5a" ></div>
+        
+</body>
+<script>    
+    
+            var map_779c85fdcfcb479bb1e01762e200da5a = L.map(
+                "map_779c85fdcfcb479bb1e01762e200da5a",
+                {
+                    center: [-15.893404, -47.961772],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2b2e2d6558a8493296d45520cf0411f2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var marker_3fe261d706d8421ca60453db2389d41a = L.marker(
+                [47.9621467, 11.3070143],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_f4f1a130004c47f98768d6406d66e517 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fe261d706d8421ca60453db2389d41a.setIcon(icon_f4f1a130004c47f98768d6406d66e517);
+        
+    
+        var popup_7f10d4d6724f4b65bf214bc7a682cba7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d25114df2914b57b52b41a67bbd8d0e = $(`<div id="html_5d25114df2914b57b52b41a67bbd8d0e" style="width: 100.0%; height: 100.0%;"><b>Possenhofen Kaiserin Elisabeth Museum</b></div>`)[0];
+            popup_7f10d4d6724f4b65bf214bc7a682cba7.setContent(html_5d25114df2914b57b52b41a67bbd8d0e);
+        
+
+        marker_3fe261d706d8421ca60453db2389d41a.bindPopup(popup_7f10d4d6724f4b65bf214bc7a682cba7)
+        ;
+
+        
+    
+    
+            marker_3fe261d706d8421ca60453db2389d41a.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ccec5104c0f4b2594af4e2b70215e4c = L.marker(
+                [47.9600874, 11.3140296],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_2daf9c4b1e094fdc85ac28638e42b492 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ccec5104c0f4b2594af4e2b70215e4c.setIcon(icon_2daf9c4b1e094fdc85ac28638e42b492);
+        
+    
+        var popup_6fefe18ed0f04b38a6fbbbdd13e94dda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12ac386ae3aa49bfb3f4fc253d37136a = $(`<div id="html_12ac386ae3aa49bfb3f4fc253d37136a" style="width: 100.0%; height: 100.0%;"><b>Possenhofen Karl Theodor Str. südlich</b></div>`)[0];
+            popup_6fefe18ed0f04b38a6fbbbdd13e94dda.setContent(html_12ac386ae3aa49bfb3f4fc253d37136a);
+        
+
+        marker_3ccec5104c0f4b2594af4e2b70215e4c.bindPopup(popup_6fefe18ed0f04b38a6fbbbdd13e94dda)
+        ;
+
+        
+    
+    
+            marker_3ccec5104c0f4b2594af4e2b70215e4c.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54fd6f5f71224ad5b4b03861b103cb9d = L.marker(
+                [47.9608849, 11.3143864],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_07ba2cf2946c4a8d959a79eb9c86d3c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54fd6f5f71224ad5b4b03861b103cb9d.setIcon(icon_07ba2cf2946c4a8d959a79eb9c86d3c9);
+        
+    
+        var popup_f17aa06e6cd34eb59544835c69f1042f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c4523df7329477c9879f30064021cfb = $(`<div id="html_7c4523df7329477c9879f30064021cfb" style="width: 100.0%; height: 100.0%;"><b>Possenhofen Karl Theodor Str. nördlich</b></div>`)[0];
+            popup_f17aa06e6cd34eb59544835c69f1042f.setContent(html_7c4523df7329477c9879f30064021cfb);
+        
+
+        marker_54fd6f5f71224ad5b4b03861b103cb9d.bindPopup(popup_f17aa06e6cd34eb59544835c69f1042f)
+        ;
+
+        
+    
+    
+            marker_54fd6f5f71224ad5b4b03861b103cb9d.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74307e7ac3f240a28e8eb58d47cf52a2 = L.marker(
+                [47.9626738, 11.3154432],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_9d23520b8ccb4fd0bc7b9bad5cf2ec25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_74307e7ac3f240a28e8eb58d47cf52a2.setIcon(icon_9d23520b8ccb4fd0bc7b9bad5cf2ec25);
+        
+    
+        var popup_ead2716913ae4f19b1e52059af43bb3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_353e93b774974939a409c8be53387438 = $(`<div id="html_353e93b774974939a409c8be53387438" style="width: 100.0%; height: 100.0%;"><b>Possenhofen Kiosk Schloßpark</b></div>`)[0];
+            popup_ead2716913ae4f19b1e52059af43bb3a.setContent(html_353e93b774974939a409c8be53387438);
+        
+
+        marker_74307e7ac3f240a28e8eb58d47cf52a2.bindPopup(popup_ead2716913ae4f19b1e52059af43bb3a)
+        ;
+
+        
+    
+    
+            marker_74307e7ac3f240a28e8eb58d47cf52a2.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb270ffc53154975be50441ab7bfd64b = L.marker(
+                [47.9642947, 11.319677],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_184235fe0ed44933aaa341f85d86e9f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb270ffc53154975be50441ab7bfd64b.setIcon(icon_184235fe0ed44933aaa341f85d86e9f0);
+        
+    
+        var popup_83345ce4dc204ef8b998e096e54b5588 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bce32d03266f4b8d973114181a5760ff = $(`<div id="html_bce32d03266f4b8d973114181a5760ff" style="width: 100.0%; height: 100.0%;"><b>Possenhofen nähe Steg DLRG</b></div>`)[0];
+            popup_83345ce4dc204ef8b998e096e54b5588.setContent(html_bce32d03266f4b8d973114181a5760ff);
+        
+
+        marker_cb270ffc53154975be50441ab7bfd64b.bindPopup(popup_83345ce4dc204ef8b998e096e54b5588)
+        ;
+
+        
+    
+    
+            marker_cb270ffc53154975be50441ab7bfd64b.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e84bd006991a4fc58dd004657da9d373 = L.marker(
+                [-15.893404, -47.961772],
+                {}
+            ).addTo(map_779c85fdcfcb479bb1e01762e200da5a);
+        
+    
+            var icon_b50a24bfdada4154a7d7d135bd36f100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e84bd006991a4fc58dd004657da9d373.setIcon(icon_b50a24bfdada4154a7d7d135bd36f100);
+        
+    
+        var popup_a950078f59864db5be775e76bc3eaf34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1bb085ef87548e6a4b80a93e16cca77 = $(`<div id="html_e1bb085ef87548e6a4b80a93e16cca77" style="width: 100.0%; height: 100.0%;"><i>Ваше местоположение</i></div>`)[0];
+            popup_a950078f59864db5be775e76bc3eaf34.setContent(html_e1bb085ef87548e6a4b80a93e16cca77);
+        
+
+        marker_e84bd006991a4fc58dd004657da9d373.bindPopup(popup_a950078f59864db5be775e76bc3eaf34)
+        ;
+
+        
+    
+    
+            marker_e84bd006991a4fc58dd004657da9d373.bindTooltip(
+                `<div>
+                     Жми!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
